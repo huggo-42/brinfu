@@ -1,0 +1,10 @@
+List<String> items = ['Mouse','Teclado','Monitor', 'Cadeira'];
+try {
+    for (var item in items) {
+        print('itme: $item');
+      }
+  } catch (e) {
+        print('item: $item');
+    } finally {
+        print('terminou');
+      }
